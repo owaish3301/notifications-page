@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Live Site URL: [https://66977afa15cf1572abff564d--norifications-page.netlify.app/](https://66977afa15cf1572abff564d--norifications-page.netlify.app/)
-- Solution URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/notifications-page-vPShv39pE0](https://www.frontendmentor.io/solutions/notifications-page-vPShv39pE0)
 
 ## My process
 
