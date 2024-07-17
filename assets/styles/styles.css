@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+@font-face {
+  font-family: "plusJakartaSans"; /* Name you'll use to reference the font */
+  src: url("/assets//fonts/PlusJakartaSans-VariableFont_wght.ttf") format("truetype"); /* Preferred format */
+}
+@font-face {
+  font-family: "plusJakartaSansBold";
+  src: url("/assets/fonts/static/PlusJakartaSans-ExtraBold.ttf");
+}
+body .top-card {
+  max-width: 450px;
+  margin: auto;
+  background-color: white;
+  padding: 10px;
+}
+body .top-card nav {
+  padding-top: 10px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+body .top-card nav #mark-as-read {
+  flex-grow: 1;
+  text-align: right;
+  font-family: "plusJakartaSans", sans-serif;
+  font-weight: 500;
+  opacity: 0.8;
+}
+body .top-card nav #notifications-text {
+  font-family: "plusJakartaSansBold", sans-serif;
+  font-size: 1.2rem;
+}
+body .top-card nav #unread-counter {
+  font-family: "plusJakartaSans", sans-serif;
+  padding: 3px 10px;
+  color: white;
+  background-color: hsl(219, 85%, 26%);
+  border-radius: 5px;
+}
+body .top-card .notifications-panel {
+  margin-top: 20px;
+}
+body .top-card .notifications-panel .notification {
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+body .top-card .notifications-panel .notification .notification-container p {
+  font-family: "plusJakartaSans", sans-serif;
+  font-weight: 400;
+}
+body .top-card .notifications-panel .notification .notification-container .notification-time {
+  font-weight: 400;
+  opacity: 0.7;
+}
+body .top-card .notifications-panel .notification .notification-container .name {
+  font-family: "plusJakartaSansBold", sans-serif;
+}
+body .top-card .notifications-panel .notification .notification-container .bold {
+  font-weight: 600;
+}
+body .top-card .notifications-panel .notification .notification-container .blue {
+  color: hsl(219, 85%, 26%);
+}
+body .top-card .notifications-panel .notification .notification-container .dot {
+  display: inline-block;
+  background-color: red;
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+}
+body .top-card .notifications-panel .unread {
+  background-color: hsl(208, 62%, 96%);
+  border-radius: 10px;
+}
+body .top-card .notifications-panel .pfp {
+  width: 48px;
+  border-radius: 50%;
+}
+body .top-card .notifications-panel .pvt-msg {
+  margin-top: 8px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+@media (min-width: 450px) {
+  body {
+    background-color: hsl(210, 60%, 98%);
+  }
+  body .top-card {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    padding: 20px;
+    padding-bottom: 5px;
+  }
+  body .top-card .hover:hover, body .top-card .name:hover {
+    cursor: pointer;
+    color: hsl(219, 85%, 26%);
+  }
+}/*# sourceMappingURL=styles.css.map */
