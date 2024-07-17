@@ -17,7 +17,7 @@ html {
   src: url("/assets/fonts/static/PlusJakartaSans-ExtraBold.ttf");
 }
 body .top-card {
-  max-width: 450px;
+  max-width: 550px;
   margin: auto;
   background-color: white;
   padding: 10px;
@@ -94,7 +94,7 @@ body .top-card .notifications-panel .pvt-msg {
   padding: 10px;
 }
 
-@media (min-width: 450px) {
+@media (min-width: 550px) {
   body {
     background-color: hsl(210, 60%, 98%);
   }
